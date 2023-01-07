@@ -1,0 +1,97 @@
+html{
+    font-size:20px;
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+}
+body{
+    background-color:#FAF7F0;
+}
+#links{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    width:75vw;
+}
+
+h1{
+    padding:0.5rem 1rem;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size:2rem;
+}
+nav{
+    display: flex;
+    background-color:#1CD6CE;
+    position:fixed;
+    justify-content:space-between;
+    width:100vw;
+}
+.nav-link{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+.nav-item{
+    padding:1rem 1rem;
+    width:15vw;
+    text-align:center;
+    
+}
+.nav-item:hover{
+    background-color:#83efea;
+    cursor:pointer;
+    transition:0.6s;
+}
+
+#images{
+    padding: 100px 275px;
+    justify-content: space-around;
+}
+
+#doctors{
+    padding: 0px 400px;
+    align-items: center;
+    text-align: center;
+}
+#list-doc{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-align: center;
+}
+small{
+    text-align: center;
+}
+button {
+    background: TEAL;
+    background-image: -webkit-linear-gradient(top, TEAL, #35b6bf);
+    background-image: -moz-linear-gradient(top, TEAL, #35b6bf);
+    background-image: -ms-linear-gradient(top, TEAL, #35b6bf);
+    background-image: -o-linear-gradient(top, TEAL, #35b6bf);
+    background-image: linear-gradient(to bottom, TEAL, #35b6bf);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background: #40b9bd;
+    background-image: -webkit-linear-gradient(top, #40b9bd, #5ac3c7);
+    background-image: -moz-linear-gradient(top, #40b9bd, #5ac3c7);
+    background-image: -ms-linear-gradient(top, #40b9bd, #5ac3c7);
+    background-image: -o-linear-gradient(top, #40b9bd, #5ac3c7);
+    background-image: linear-gradient(to bottom, #40b9bd, #5ac3c7);
+    text-decoration: none;
+  }

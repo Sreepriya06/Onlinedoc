@@ -1,0 +1,145 @@
+html{
+    font-size:20px;
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+}
+body{
+    background-color:#FAF7F0;
+}
+#links{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    width:75vw;
+}
+
+h1{
+    padding:0.5rem 1rem;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size:2rem;
+}
+nav{
+    display: flex;
+    background-color:#1CD6CE;
+    position:fixed;
+    justify-content:space-between;
+    width:100vw;
+}
+.nav-link{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+.nav-item{
+    padding:1rem 1rem;
+    width:15vw;
+    text-align:center;
+    
+}
+.nav-item:hover{
+    background-color:#83efea;
+    cursor:pointer;
+    transition:0.6s;
+}
+
+
+p{
+    
+    color: black;
+    font-size : 1rem;
+    font-weight: 400;
+
+}
+
+h2{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: lighter;
+
+
+}
+h3{
+    font-size: 1.8rem;
+    color: rgb(20, 125, 123);
+    font-weight: bold;
+
+}
+#main{
+    padding: 90px 50px ;
+}
+
+#buttons{
+    padding: 0px 50px 20px 50px;
+    justify-items: center;
+}
+
+
+button{
+    border: 0;
+    line-height: 6;
+    padding: 0 10px;
+    font-size: 0.8rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(30, 189, 173);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+button:hover {
+    background-color: rgb(38, 227, 192);
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+button>a{
+    color:white;
+    text-decoration: none;
+}
+#main2{
+    padding: 80px 425px;
+}
+#main2>h2{
+    text-align: center;
+}
+#main2>img{
+    padding:0px 55px ;
+}
+#text{
+    padding:0px 30px;
+}
+#book>button{
+    border: 0;
+    line-height: 4;
+    padding: 0px 50px;
+    font-size: 0.8rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(182, 57, 46);
+   
+}
+#book>button:hover{
+    background-color: rgb(206, 11, 11);
+}
+#book>button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+#book{
+    padding: 5px 500px;
+}
+
+img{
+    padding: 5px 450px;
+}
